@@ -18,8 +18,9 @@ Ensure LMStudio (https://lmstudio.ai/) is set up and runs a local server mode.
 The following models were tested for location extraction:
 - Phi-3-mini-128k-instruct-GGUF-Imatrix-smashed (https://huggingface.co/PrunaAI/Phi-3-mini-128k-instruct-GGUF-Imatrix-smashed)
 - OpenHermes-2.5-Mistral-7B-GGUF (https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF)
-
 Larger models can be used and will improve results, but will require a more powerful GPU.
+
+You will need a Google Map API key to run the code. If not, you can set up your own instance of OSM or use Nominatim
 
 ## Specifications:
 Tested on a local machine with an Nvidia T1200 4GB GPU, the script demonstrates good performance with the specified models.

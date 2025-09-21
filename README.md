@@ -17,11 +17,11 @@ Additionally, the script leverages LMStudio (https://lmstudio.ai/) in local serv
 
 ## Features:
 
-Extracts and structures location data from Excel files containing conflict-related security incidents.
+Extracts and structures location data from CSV files containing conflict-related security incidents.
 Utilizes a local Large Language Model (LLM) for privacy-preserving location extraction.
 Formats extracted data for submission to Google Maps' geocoding system.
 Visualizes finalized locations on an interactive map using Folium.
-Exported to a .csv file for further analysis.
+Exported to a .xlsx file for further analysis.
 
 ## Usage:
 
@@ -34,6 +34,7 @@ Larger models can be used and will improve results, but will require a more powe
 You will need a Google Map API key to run the code. If not, you can set up your own instance of OSM or use Nominatim
 
 ## Specifications:
+
 Tested on a local machine with an Nvidia T1200 4GB GPU, the script demonstrates good performance with the specified models.
 
 ## License
